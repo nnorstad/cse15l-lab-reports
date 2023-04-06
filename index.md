@@ -2,11 +2,11 @@
 
 **little frogs and such**
 
-## Frog 1 and 2:
+## Frogs 1 and 2:
 
 ![Image](https://www.amphibians.org/wp-content/uploads/2019/04/0_World-Frog-Day.jpg)
 
-*this one has a frog hat*
+*this one has a frog hat (important!)*
 
 ## Types of frogs:
 - big
