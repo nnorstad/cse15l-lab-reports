@@ -13,3 +13,7 @@ little frogs and such
 - small
 - frog tattoo
 - etc
+
+## How to learn more about frogs:
+[Link](https://en.wikipedia.org/wiki/Frog)
+> for all your frog related inquiries, email [Link](frog@gmail.com) with any questions regarding frogs
