@@ -17,3 +17,8 @@
 ## How to learn more about frogs:
 [wikipedia.com/Frog](https://en.wikipedia.org/wiki/Frog)
 > for all your frog related inquiries, email [frog@gmail.com](frog@gmail.com) with any questions regarding frogs
+
+## Quick frog facts:
+1. slimy
+2. gooey
+3. slopped up
