@@ -15,5 +15,5 @@ little frogs and such
 - etc
 
 ## How to learn more about frogs:
-[Link](https://en.wikipedia.org/wiki/Frog)
-> for all your frog related inquiries, email [Link](frog@gmail.com) with any questions regarding frogs
+[wikipedia.com/Frog](https://en.wikipedia.org/wiki/Frog)
+> for all your frog related inquiries, email [frog@gmail.com](frog@gmail.com) with any questions regarding frogs
