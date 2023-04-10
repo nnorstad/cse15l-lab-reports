@@ -22,6 +22,15 @@ Type *ssh cs15lsp23(...)@ieng6.ucsd.edu* into the terminal and press enter, wher
 
 ![Image](https://user-images.githubusercontent.com/130105980/230979637-75aab84f-8c48-4def-beb5-d0f7052c2c38.png)
 
+## Running Commands
 
-
+Once you have access to the remote server, you can run a variety of different commands. Some examples include:
+- pwd : print working directory
+> to execute, type pwd into the command line; this command accesses the working directory 
+- cd <path> : change directory to the given path
+> to execute, type cd followed by the desired path; this command changes the current working directory, confirm the change by using pwd
+  
+Example, running the pwd command:
+  
+ ![Image](https://user-images.githubusercontent.com/130105980/230988489-1d0ffb08-8c41-419e-bfae-d1f2aa16c78b.png)
 
