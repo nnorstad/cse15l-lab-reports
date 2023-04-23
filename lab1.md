@@ -18,7 +18,14 @@ To access a remote server, we must begin by downloading Visual Studio Code. Down
 
 Begin by logging into the course-specific account for ieng6 in the terminal of VS code. To do this, first select *Terminal* from the menu on the upper most part of the screen and then select *New Terminal* from the drop down menu. 
 
-Type *ssh cs15lsp23(...)@ieng6.ucsd.edu* into the terminal and press enter, where (...) is replaced with your course-specific username. When prompted, enter your course-specific password and press enter again. If your access was successful, you should see confirmation of the login similar to the screen below.
+Enter the following command into the terminal, where the -- is replaced with your course specific code. Press enter, and when prompted, enter your password.
+
+```
+$ ssh cs15lsp23--@ieng6.ucsd.edu
+  (cs15lsp23--@ieng6.ucsd.edu) Password:
+  
+ ```
+If your access was successful, you should see confirmation of the login similar to the screen below.
 
 ![Image](https://user-images.githubusercontent.com/130105980/230979637-75aab84f-8c48-4def-beb5-d0f7052c2c38.png)
 
@@ -26,7 +33,10 @@ Type *ssh cs15lsp23(...)@ieng6.ucsd.edu* into the terminal and press enter, wher
 
 Once you have access to the remote server, you can run a variety of different commands. Some examples include:
 - pwd : print working directory
-> to execute, type pwd into the command line; this command accesses the working directory 
+-> to execute, type pwd into the command line; this command accesses the working directory
+  ```
+  $ pwd
+  ``` 
 - cd <path> : change directory to the given path
 > to execute, type cd followed by the desired path; this command changes the current working directory, confirm the change by using pwd
   
