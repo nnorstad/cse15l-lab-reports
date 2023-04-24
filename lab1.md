@@ -21,8 +21,8 @@ Begin by logging into the course-specific account for ieng6 in the terminal of V
 Enter the following command into the terminal, where the -- is replaced with your course specific code. Press enter, and when prompted, enter your password.
 
 ```
-$ ssh cs15lsp23--@ieng6.ucsd.edu
-  (cs15lsp23--@ieng6.ucsd.edu) Password:
+  $ ssh cs15lsp23--@ieng6.ucsd.edu
+    (cs15lsp23--@ieng6.ucsd.edu) Password:
   
  ```
 If your access was successful, you should see confirmation of the login similar to the screen below.
@@ -33,14 +33,37 @@ If your access was successful, you should see confirmation of the login similar 
 
 Once you have access to the remote server, you can run a variety of different commands. Some examples include:
 - pwd : print working directory
--> to execute, type pwd into the command line; this command accesses the working directory
   ```
   $ pwd
   ``` 
-- cd <path> : change directory to the given path
-> to execute, type cd followed by the desired path; this command changes the current working directory, confirm the change by using pwd
+   ![Image](https://user-images.githubusercontent.com/130105980/230988489-1d0ffb08-8c41-419e-bfae-d1f2aa16c78b.png)
+
   
-Example, running the pwd command:
+- cd <path> : change directory to the given path, confirm the change by using pwd
+  ```
+  $ cd <path>
+  ```
   
- ![Image](https://user-images.githubusercontent.com/130105980/230988489-1d0ffb08-8c41-419e-bfae-d1f2aa16c78b.png)
+- ls : lists all files
+  ```
+  $ ls 
+  ```
+  ![Image](https://user-images.githubusercontent.com/130105980/234122758-a7dc2402-0007-440c-960e-47194ab414df.png)
+  
+  
+- ls -a : lists all files, including hidden files
+  ```
+  $ ls -a
+  ```
+  ![Image](https://user-images.githubusercontent.com/130105980/234122908-da8ba33f-7f1e-4bef-9ed8-153ee65bb0ba.png)
+  
+  
+- cat <file> : prints the contents of one or more files, file is replaced by the path
+  ```
+  $ cat <file1> <file2>
+  ```
+  ![Image](https://user-images.githubusercontent.com/130105980/234121945-cb1529a5-358c-4406-85ee-b0a1d4e848de.png)
+  
+  
+
 
