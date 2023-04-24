@@ -6,7 +6,7 @@ To access a remote server, we must begin by downloading Visual Studio Code. Down
 
 1. For a mac, either follow this [link](https://code.visualstudio.com/download) or search *download VS code* on google and follow the first link. Click on the button below the apple symbol.
 
-![Image](https://user-images.githubusercontent.com/130105980/230967016-3e48df3b-da13-40bc-a1bd-6db18584b7ed.png)
+<img width="200" alt="Screen Shot 2023-04-06 at 3 46 41 PM" src="https://user-images.githubusercontent.com/130105980/234123361-542aae7c-0e7d-4006-adb8-a50419d0095f.png">
 
 2. This will open a zip file. Once the file has downloaded, open it. Double click the file labeled *Visual Code Studio* and click *open* when prompted.
 
@@ -65,6 +65,5 @@ Once you have access to the remote server, you can run a variety of different co
   ![Image](https://user-images.githubusercontent.com/130105980/234121945-cb1529a5-358c-4406-85ee-b0a1d4e848de.png)
   
   
-<img width="200" alt="Screen Shot 2023-04-06 at 3 46 41 PM" src="https://user-images.githubusercontent.com/130105980/234123361-542aae7c-0e7d-4006-adb8-a50419d0095f.png">
 
 
