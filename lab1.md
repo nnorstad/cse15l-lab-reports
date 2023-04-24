@@ -65,5 +65,6 @@ Once you have access to the remote server, you can run a variety of different co
   ![Image](https://user-images.githubusercontent.com/130105980/234121945-cb1529a5-358c-4406-85ee-b0a1d4e848de.png)
   
   
+<img width="200" alt="Screen Shot 2023-04-06 at 3 46 41 PM" src="https://user-images.githubusercontent.com/130105980/234123361-542aae7c-0e7d-4006-adb8-a50419d0095f.png">
 
 
