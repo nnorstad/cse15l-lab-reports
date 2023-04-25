@@ -129,7 +129,7 @@ Array Example:
 
 ## Part 3: What I Learned 
 
-    I big part of my learning in lab 2 was about how servers interpret user input. I really had no idea how browsers interpretted data, and although this was a highly simplified example, it still gave me an idea of how these techniques can be implemented on a larger scale. I especially enjoyed programming the search engine. A lot of the programming classes I have taken don't produce such a clear output, and it was fun to interact with. Even though my friends made fun of me for how bad the search engine was at searching anything besides previously entered strings, I was thrilled to be able to program something like that with little guidance. Although I have done some JUnit testing in CSE 12, I found the testing practice in lab 3 to be incredibly healpful and I was glad to learn more about how to properly implement JUnit tests.
+I big part of my learning in lab 2 was about how servers interpret user input. I really had no idea how browsers interpretted data, and although this was a highly simplified example, it still gave me an idea of how these techniques can be implemented on a larger scale. I especially enjoyed programming the search engine. A lot of the programming classes I have taken don't produce such a clear output, and it was fun to interact with. Even though my friends made fun of me for how bad the search engine was at searching anything besides previously entered strings, I was thrilled to be able to program something like that with little guidance. Although I have done some JUnit testing in CSE 12, I found the testing practice in lab 3 to be incredibly healpful and I was glad to learn more about how to properly implement JUnit tests.
 
 
     Thanks for reading!
