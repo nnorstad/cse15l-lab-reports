@@ -101,33 +101,37 @@ Array Example:
     <img width="700" alt="Screen Shot 2023-04-24 at 7 15 50 PM" src="https://user-images.githubusercontent.com/130105980/234157850-4e1a0de3-30e7-40db-8b78-2636361b4a36.png">
 
 
-4. The code did not properly change all the elements of the array. It is correct in some aspects. For example, the programmer did recognize that the first element should be assigned to the last and the second element should be assigned to the second to last and so on. This is evident from the line of code in the initial for loop. The problem is, the loop iterates through all indices of the array and doesn't store the values that are changed, so only part of the list can be correctly reversed. 
+4. The code did not properly change all the elements of the array. It is correct in some aspects. For example, the programmer did recognize that the first    element should be assigned to the last and the second element should be assigned to the second to last and so on. This is evident from the line of code
+   in the initial for loop. The problem is, the loop iterates through all indices of the array and doesn't store the values that are changed, so only part
+   of the list can be correctly reversed. 
 
-```
-static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-  }
- ```
+    ```
+    static void reverseInPlace(int[] arr) {
+        for(int i = 0; i < arr.length; i += 1) {
+          arr[i] = arr[arr.length - i - 1];
+        }
+      }
+     ```
  
-In the revised code, the loop iterates through only half of the list, and each variable closer to the end of the array is stored in a temporary variable so the data is not lost when the data in the earlier element is assigned to the later element. This allows the later element to be assigned to the earlier element after the data stored at the index has been changed. 
+    In the revised code, the loop iterates through only half of the list, and each variable closer to the end of the array is stored in a temporary
+    variable so the data is not lost when the data in the earlier element is assigned to the later element. This allows the later element to be assigned 
+    to the earlier element after the data stored at the index has been changed. 
 
-```
-static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length/2; i += 1) {
-      int temp = arr[i];
-      arr[i] = arr[arr.length - i - 1];
-      arr[arr.length - i - 1] = temp;
-    }
-  }
-```
+    ```
+    static void reverseInPlace(int[] arr) {
+        for(int i = 0; i < arr.length/2; i += 1) {
+          int temp = arr[i];
+          arr[i] = arr[arr.length - i - 1];
+          arr[arr.length - i - 1] = temp;
+        }
+      }
+    ```
 
 ## Part 3: What I Learned 
 
-I big part of my learning in lab 2 was about how servers interpret user input. I really had no idea how browsers interpretted data, and although this was a highly simplified example, it still gave me an idea of how these techniques can be implemented on a larger scale. I especially enjoyed programming the search engine. A lot of the programming classes I have taken don't produce such a clear output, and it was fun to interact with. Even though my friends made fun of me for how bad the search engine was at searching anything besides previously entered strings, I was thrilled to be able to program something like that with little guidance. Although I have done some JUnit testing in CSE 12, I found the testing practice in lab 3 to be incredibly healpful and I was glad to learn more about how to properly implement JUnit tests.
+    I big part of my learning in lab 2 was about how servers interpret user input. I really had no idea how browsers interpretted data, and although this was a highly simplified example, it still gave me an idea of how these techniques can be implemented on a larger scale. I especially enjoyed programming the search engine. A lot of the programming classes I have taken don't produce such a clear output, and it was fun to interact with. Even though my friends made fun of me for how bad the search engine was at searching anything besides previously entered strings, I was thrilled to be able to program something like that with little guidance. Although I have done some JUnit testing in CSE 12, I found the testing practice in lab 3 to be incredibly healpful and I was glad to learn more about how to properly implement JUnit tests.
 
 
-Thanks for reading!
+    Thanks for reading!
 
 <img width="484" alt="Screen Shot 2023-04-24 at 7 18 27 PM" src="https://user-images.githubusercontent.com/130105980/234158175-709bd52e-625e-4f8f-8b21-1410104af197.png">
