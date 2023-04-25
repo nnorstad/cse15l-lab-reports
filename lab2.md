@@ -48,5 +48,11 @@ In this example, the main method is the first method to be called. The command l
 $ javac StringServer.java
 $ java StringServer 4003
 ```
-The first command compiles the code and the second calls the main method to activate the server. The main method takes a string array as an argument. This should contain the port number, which is needed to activate the server. This number is parsed to an integer and passed to the Server.start method. The Server.start method instantiates a new StringHandler object so the server can access the StringHandler code. Next, the handleRequest method is called when a valid URL is entered into a browser. This method takes a URL as a parameter. It uses this input to get the proper output. It parses the URL, adds the correct string to the list of strings, and concatenates and returns all the input string. The 
+The first command compiles the code and the second calls the main method to activate the server. The main method takes a string array as an argument. This should contain the port number, which is needed to activate the server. This number is parsed to an integer and passed to the Server.start method. The Server.start method instantiates a new StringHandler object so the server can access the StringHandler code. 
+   
+Next, the handleRequest method is called when a valid URL is entered into a browser. This method takes a URL as a parameter. It uses this input to get the proper output. It parses the URL, adds the correct string to the list of strings, and concatenates and returns all the input string. The strings are stored in an ArrayList that is initialized at the beginning of the program. This allows the server to print out all the strings that are added to the site. 
+
+We use the contains method to determine the path of the URL. If it contains the proper key word, we add the following string to the list, and if it doesn't an error message is returned. Before adding the string, we must separate the string from the rest of the path with the use of the getQuery and split methods. GetQuery gets the portion of the path after the "?", and split splits the resulting string at the character "=", which is specified in the paramter of the split method.
+
+The output of these methods is added to the ArrayList with the add method. The strings in the ArrayList are concatenated, stored in a single field, and returned. This is what is printed on screen in the screenshot above. Each line is a separate string that was entered as a query into the URL. The above process was repeated for each string entry.
 
