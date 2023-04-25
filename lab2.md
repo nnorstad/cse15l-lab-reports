@@ -47,6 +47,7 @@ In this example, the main method is the first method to be called. The command l
 ``` 
 $ javac StringServer.java
 $ java StringServer 4003
+    Server Started! Visit http://localhost:4003 to visit.
 ```
 The first command compiles the code and the second calls the main method to activate the server. The main method takes a string array as an argument. This should contain the port number, which is needed to activate the server. This number is parsed to an integer and passed to the Server.start method. The Server.start method instantiates a new StringHandler object so the server can access the StringHandler code. 
    
@@ -55,4 +56,16 @@ Next, the handleRequest method is called when a valid URL is entered into a brow
 We use the contains method to determine the path of the URL. If it contains the proper key word, we add the following string to the list, and if it doesn't an error message is returned. Before adding the string, we must separate the string from the rest of the path with the use of the getQuery and split methods. GetQuery gets the portion of the path after the "?", and split splits the resulting string at the character "=", which is specified in the paramter of the split method.
 
 The output of these methods is added to the ArrayList with the add method. The strings in the ArrayList are concatenated, stored in a single field, and returned. This is what is printed on screen in the screenshot above. Each line is a separate string that was entered as a query into the URL. The above process was repeated for each string entry.
+
+**Example 2:**
+
+<img width="372" alt="Screen Shot 2023-04-24 at 6 34 56 PM" src="https://user-images.githubusercontent.com/130105980/234153151-a85b5ca5-c958-4e21-9b1e-a3e40efc0218.png">
+
+In this example, the main method is called again.
+```
+$ javac StringServer.java
+$ java StringServer 4005
+    Server Started! Visit http://localhost:4005 to visit.
+```
+The same methods are called as in the example above, but different arguments are passed into the methods because the port and the input strings are different. However, the program functions in the same way.
 
