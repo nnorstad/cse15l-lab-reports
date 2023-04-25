@@ -75,7 +75,7 @@ The same methods are called as in the example above, but different arguments are
 
 ## Part 2: Bugs
 
-<img width="400" alt="Screen Shot 2023-04-24 at 6 47 22 PM" src="https://user-images.githubusercontent.com/130105980/234154471-0ed23984-ba8d-45ce-a648-352e7fe73a1d.png">
+<img width="400" alt="output" src="https://user-images.githubusercontent.com/130105980/234154471-0ed23984-ba8d-45ce-a648-352e7fe73a1d.png">
 
 Array Example:
 1. Failure inducing input:
@@ -98,7 +98,8 @@ Array Example:
     
 3. The code produces an error for one of the tests, but not the other.
 
-    <img width="952" alt="Screen Shot 2023-04-24 at 7 04 36 PM" src="https://user-images.githubusercontent.com/130105980/234156502-c18e3af2-7ec1-4cd9-          b1a0-09766bb685af.png">
+    <img width="700" alt="Screen Shot 2023-04-24 at 7 15 50 PM" src="https://user-images.githubusercontent.com/130105980/234157850-4e1a0de3-30e7-40db-8b78-2636361b4a36.png">
+
 
 4. The code did not properly change all the elements of the array. It is correct in some aspects. For example, the programmer did recognize that the first element should be assigned to the last and the second element should be assigned to the second to last and so on. This is evident from the line of code in the initial for loop. The problem is, the loop iterates through all indices of the array and doesn't store the values that are changed, so only part of the list can be correctly reversed. 
 
