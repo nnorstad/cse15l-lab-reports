@@ -47,4 +47,13 @@ The output of this command is stored [here](unmatched.txt). It's quite a long ou
 
 Example 3b:
 
+Command:
+```
+$ grep -v "biomed" unmatched.txt > unmatched2.txt
+```
+The output of the command is stored [here](unmatched2.txt). Again, the output is a little too long to include as a screenshot, but looking at the file, we can see it is the same as the previous result, but this time it excludes path names with "biomed". We can see an interesting feature of this command with these two examples. We are able to further modify lists that have already been modified. We could use this to narrow down a search by excluding certain terms.
+
+**grep 
+
+
 
