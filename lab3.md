@@ -7,11 +7,21 @@
 
 Example 1a:
 
+Command:
+```
+$ grep -c ".txt" find-results.txt
+```
+
 <img width="518" alt="Screen Shot 2023-05-08 at 11 48 17 AM" src="https://user-images.githubusercontent.com/130105980/236906932-47f33d3d-9f42-4601-90d2-6aa6a0041c8a.png">
 
 As we can see from the picture, this command is an easy way to count the number of lines that match with the specified string we input. Another way would be to put all the matching lines in a file then call wc, but this would require two commands, not one. Calling grep -c is a more efficient way to count lines in this specific context where all the lines end with the same string.
 
 Example 1b:
+
+Command:
+```
+$ grep -c "government" find-results.txt
+```
 
 <img width="552" alt="Screen Shot 2023-05-08 at 11 56 22 AM" src="https://user-images.githubusercontent.com/130105980/236908692-091a177a-11e7-4596-bbea-307fa80fcc10.png">
 
@@ -25,11 +35,21 @@ This file contains many .txt file paths. Our grep -c call returned all the paths
 
 Example 2a:
 
+Command:
+```
+$ grep -A 1 "government/Media/An" find-results.txt
+```
+
 <img width="660" alt="Screen Shot 2023-05-08 at 12 06 59 PM" src="https://user-images.githubusercontent.com/130105980/236910767-57fe555e-cc1e-403a-a9ee-ad6c6b96596f.png">
 
 This command is used to search for a particular string and return the line containing the string plus n lines after. In the above example, we printed one line after searched line. 
 
 Example 2b:
+
+Command:
+```
+$ grep -A 1 "government/Media/A" find-results.txt
+```
 
 <img width="619" alt="Screen Shot 2023-05-08 at 12 10 08 PM" src="https://user-images.githubusercontent.com/130105980/236911419-5a0d3138-cd6a-4f5f-86a3-9c4a69c678e1.png">
 
@@ -64,6 +84,11 @@ $ grep -n "plos" unmatched2.txt > lines.txt
 This is another long output so we'll store it [here](lines.txt). If we take a look at the link, we can see that all the matching lines and their line numbers are stored in this file. While it might be hard to imagine how this could be useful given that the paths in this particular example were orginially grouped together, this command would likely be more useful in larger files where locations of certain lines are unknown.
 
 Example 4b:
+
+Command:
+```
+$ grep -n "8" plos-only.txt
+```
 
 <img width="467" alt="Screen Shot 2023-05-08 at 4 15 05 PM" src="https://user-images.githubusercontent.com/130105980/236957017-5d258309-8c94-46f1-a8e9-16e5e5c00eda.png">
 
