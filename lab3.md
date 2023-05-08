@@ -53,7 +53,26 @@ $ grep -v "biomed" unmatched.txt > unmatched2.txt
 ```
 The output of the command is stored [here](unmatched2.txt). Again, the output is a little too long to include as a screenshot, but looking at the file, we can see it is the same as the previous result, but this time it excludes path names with "biomed". We can see an interesting feature of this command with these two examples. We are able to further modify lists that have already been modified. We could use this to narrow down a search by excluding certain terms.
 
-**grep 
+**grep -n: returns lines matching search criteria and the line they occur in**
+
+Example 4a:
+
+Command:
+```
+$ grep -n "plos" unmatched2.txt > lines.txt
+```
+This is another long output so we'll store it [here](lines.txt). If we take a look at the link, we can see that all the matching lines and their line numbers are stored in this file. While it might be hard to imagine how this could be useful given that the paths in this particular example were orginially grouped together, this command would likely be more useful in larger files where locations of certain lines are unknown.
+
+Example 4b:
+
+<img width="467" alt="Screen Shot 2023-05-08 at 4 15 05 PM" src="https://user-images.githubusercontent.com/130105980/236957017-5d258309-8c94-46f1-a8e9-16e5e5c00eda.png">
+
+To get this output, we first created a file using the following command:
+```
+$ grep "plos" unmatched.txt > plos-only.txt
+```
+This isolated all path names that matched the search "plos" (this is similar to the command above, but this created a file with no line numbers associated with our search output). We could then call grep -n to find all of the outputs containing "plos" that also contain the number 8. This printed all the lines and the path names associated with our search. We get a better idea of how grep -n can be useful because our desired data was not grouped together. grep -n allows us to find the location of certain data in a file.
 
 
-
+Works Cited:
+[GeeksforGeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
