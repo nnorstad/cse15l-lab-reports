@@ -45,4 +45,6 @@ $ grep -v "government" find-results.txt > unmatched.txt
 ```
 The output of this command is stored [here](unmatched.txt). It's quite a long output, so it would be difficult to show in a single screenshot. If you look carefully through the file, you can see that there is no output line with the string "government". This file was derived from [find-results.txt](find-results.txt), which we can see contains lines with "government", so the grep -v command clearly excluded all lines with "government".
 
+Example 3b:
+
 
