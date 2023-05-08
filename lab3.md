@@ -39,4 +39,8 @@ In this example, we changed out search input and we can see that our output chan
 
 Example 3a:
 
-
+Command:
+```
+$ grep -v "government" find-results.txt
+```
+The output of this command is stored [here](unmatched.txt).
