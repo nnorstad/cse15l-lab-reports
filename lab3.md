@@ -43,4 +43,4 @@ Command:
 ```
 $ grep -v "government" find-results.txt
 ```
-The output of this command is stored [here](unmatched.txt).
+The output of this command is stored [here](unmatched.txt). It's quite a long output, so it would be difficult to show in a single screenshot. If you look carefully through the file, you can see that there is no output line with the string "government". This 
